@@ -10,6 +10,12 @@ $(call inherit-product, device/google/marlin/aosp_sailfish.mk)
 
 -include device/google/marlin/sailfish/device-lineage.mk
 
+# OTA Updater for Shamu
+PRODUCT_PROPERTY_OVERRIDES += \
+  ro.ota.romname=Hexa-Project-Sailfish \
+  ro.ota.version=$(shell date -u +%Y%m%d) \
+  ro.ota.manifest=https://raw.githubusercontent.com/Hexa-Project/release_sailfish/master/ota.xml
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := hexa_sailfish
 PRODUCT_BRAND := google
