@@ -1,0 +1,14 @@
+[
+  {
+    "remote":      "github",
+    "repository": "Hexa-Project/android_device_google_marlin",
+    "target_path": "device/google/marlin",
+	"revision":    "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository": "TheMuppets/proprietary_vendor_google",
+    "target_path": "vendor/google",
+	"revision":    "cm-14.1"
+  }
+]
