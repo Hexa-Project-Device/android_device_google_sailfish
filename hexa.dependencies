@@ -1,8 +1,0 @@
-[
-  {
-    "remote":      "github",
-    "repository": "Hexa-Project/android_device_google_marlin",
-    "target_path": "device/google/marlin",
-	"revision":    "cm-14.1"
-  }
-]
